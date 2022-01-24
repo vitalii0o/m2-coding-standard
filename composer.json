@@ -1,0 +1,13 @@
+{
+    "name": "vitalii0o/coding-standard",
+    "description": "Customized Magento 2 coding standard",
+    "require": {
+        "magento/magento-coding-standard": ">=1.0.0"
+    },
+    "type": "phpcodesniffer-standard",
+    "version": "1.0.0",
+    "scripts": {
+        "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths ../../..",
+        "post-update-cmd": "vendor/bin/phpcs --config-set installed_paths ../../.."
+    }
+}
